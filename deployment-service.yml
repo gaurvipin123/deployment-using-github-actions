@@ -18,7 +18,8 @@ spec:
         image: gaurdocker/swiggy-clone:latest
         ports:
         - containerPort: 3000   # Use port 3000
-
+      nodeSelector:
+          node: ip-172-31-93-135.ec2.internal
 ---
 apiVersion: v1
 kind: Service
