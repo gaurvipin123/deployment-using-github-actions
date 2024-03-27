@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: swiggy
-        image: gaurvipin1212/swiggy-clone:latest
+        image: gaurdocker/swiggy-clone:latest
         ports:
         - containerPort: 3000   # Use port 3000
 
